@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    /* max-width: 1920px; */
+    overflow-x: hidden;
+    font-family: "Cormorant Garamond", serif;
+    font-family: "Nunito", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    color: #14142b;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-header {
+    padding: 0 20px 0 20px;
+}
+
+.card-white {
+    background-color: #f7f7fc;
+}
+
+.card__container {
+    background-size: 100% 100%;
+}
+
+.header {
+    max-width: 550px;
+    height: 136px;
+    margin: auto;
+}
+
+.header_inner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_inner-text {
+    width: 440px;
+}
+
+.logo {
+    padding: 16px 0px 10px 0px;
+}
+
+.header_title {
+    padding: 0 0 16px 0;
+    color: #0576f0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.75px;
+}
+
+.header_issue {
+    padding: 0 0 16px 0;
+}
+
+.header_inner-img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card__container_inner {
+    max-width: 550px;
+    margin: auto;
+    padding: 16px 0 24px 0;
+    display: grid;
+    gap: 16px 0;
+}
+
+.text {
+    color: #4e4b66;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.25px;
+}
+
+.text-blue {
+    color: #0576f0;
+    font-style: italic;
+}
+
+.card-main {
+    padding: 16px 0 24px 0;
+}
+
+.card-grey {
+    background-color: #eff0f6;
+}
+
+.box-white {
+    border-radius: 8px;
+    background: #fff;
+    width: 550px;
+    padding: 16px 16px 24px 16px;
+    margin: auto;
+    align-items: flex-start;
+}
+
+.card__container_heading {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: stretch;
+}
+
+.card__container_heading-number {
+    font-size: 32px;
+}
+
+.rectangle {
+    width: 1px;
+    height: 25px;
+    background: #14142b;
+}
+
+.card__container_heading-text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.link {
+    color: #0576f0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.25px;
+    text-decoration-line: underline;
+}
+
+.footer-white {
+    background-color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    padding: 16px 0px 32px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    color: #372D41;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 160% */
+    letter-spacing: 0.25px;
+
+    align-self: stretch;
+}
+
+.footer__box {
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__frames {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.frame {
+    width: 18px;
+    height: 18px;
+    fill: #9E9E9E;
+}
+
+.main-text_links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
